@@ -1,0 +1,23 @@
+{
+    "name": "reen/vagrant-repo",
+    "description": "Minimal repository for vagrant boxes",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Reen Lokum",
+            "email": "reen.lokum@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.0",
+        "silex/silex": "^2.0",
+        "monolog/monolog": "^1.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reen\\VagrantRepo\\": "src/"
+        }
+    }
+}

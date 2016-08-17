@@ -1,0 +1,4 @@
+Vagrant.configure(2) do |config|
+  config.vm.box_url = "https://HOSTNAME/vagrant/BOXNAME"
+  config.vm.box = "BOXNAME"
+end

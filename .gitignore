@@ -1,0 +1,4 @@
+/web/vagrant/*
+!web/vagrant/.gitkeep
+/vendor
+/app/*.log
